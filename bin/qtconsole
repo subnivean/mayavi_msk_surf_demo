@@ -1,1 +1,1 @@
-$VIRTUAL_ENV/../bin/python.sh -m jupyter qtconsole &
+cd $VIRTUAL_ENV/../bin && $VIRTUAL_ENV/../bin/python.sh -m jupyter qtconsole &
