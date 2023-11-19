@@ -605,7 +605,9 @@ c.TerminalIPythonApp.gui = 'qt'
 #  Control-Z/Enter in Windows). By typing 'exit' or 'quit', you can force a
 #  direct exit without any confirmation.
 #  Default: True
+# MSK 2023-11-18
 # c.TerminalInteractiveShell.confirm_exit = True
+c.TerminalInteractiveShell.confirm_exit = False
 
 #  See also: InteractiveShell.debug
 # c.TerminalInteractiveShell.debug = False

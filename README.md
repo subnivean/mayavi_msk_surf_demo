@@ -25,7 +25,10 @@ You can also get easier access to programs in `./bin` by running:
 ```
 source ./config/env_defaults.sh
 ```
-
 which will prepend `./bin` to the PATH environment variable.
 
+Finally, you might want to clone the `msk-python` repo into `./app-packages`:
+```
+git clone pihole2:gitrepos/msk-python.git $VIRTUAL_ENV/../app-packages/msk
+```
 

@@ -8,6 +8,13 @@ pyqt5
 pickleshare
 
 # If installing Mayavi:
-# numpy
-# vtk
+numpy
+vtk==9.2.6
+mayavi
+
+# If running `msk` modules:
+# (Note - you may have to do a `sudo apt install python3.##-dev` in 
+# order to build `transformations`)
+transformations
+scipy
 
