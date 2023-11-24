@@ -1,3 +1,6 @@
+# This must be run from within Jupyter qtconsole
+# (`python.sh -m jupyter qtconsole`).
+
 from msk.parasurf import DemoBSplineSurf
 from msk.transformations import Trsf
 
